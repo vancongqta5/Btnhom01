@@ -1,0 +1,717 @@
+{
+  "id": "5eee44f5-8eaf-4acd-8470-6546cceaf951",
+  "version": "2.0",
+  "name": "Deposit ",
+  "url": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+  "tests": [{
+    "id": "8d96f410-d2ab-4659-9774-c32796645ffa",
+    "name": "TC001",
+    "commands": [{
+      "id": "252cf960-ec77-4507-870a-44f0781fab68",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bed04d7-6833-4895-b44a-490758837a14",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cdb850c-73c8-42c4-af27-d6cc77535df7",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f885d255-ff08-4110-9de9-7be8cded5f54",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4e79a05-afc0-453a-a954-6211ba5b7e22",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7562658-32eb-400f-9fb3-3d9840541c30",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=tr:nth-child(6) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(6) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1269a407-c0d0-4695-87aa-cfd79472d946",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "933e6378-e1f3-49ff-99a9-cbc93d92b285",
+      "comment": "",
+      "command": "click",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Account Number must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56807c48-7f8d-45ab-a87c-8a57dd7b9eb9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Account Number must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0bc572-9cd1-44ff-9fbb-374ba37d729f",
+      "comment": "",
+      "command": "click",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Account Number must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6df0def-96c8-4bfb-8db7-7fa2e1892a44",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Account Number must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Account Number must not be blank"
+    }]
+  }, {
+    "id": "754370a3-97b9-46e2-a46a-c4306a9c3eda",
+    "name": "TC005",
+    "commands": [{
+      "id": "6ba74230-d91d-4801-9121-eb4e6c79d2f2",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8126280-3c73-4f85-b8c3-b0037cea0872",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bd6451b-bfe5-401f-af5a-e3c571a1b906",
+      "comment": "",
+      "command": "click",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "665d0208-4f27-4ff7-b32f-8c73558b9321",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f31b3958-59ca-46b3-b318-5275ac22d285",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=tr:nth-child(7) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[7]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "893449f4-7444-4b59-9c7e-53b6d556fa62",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec97e32-5c7d-4549-8b53-71b4f861241a",
+      "comment": "",
+      "command": "click",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Amount field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "323eb25d-832c-432f-b58a-99a55ef885cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Amount field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "222b8a6f-9f5a-4ef5-9372-46c58b28cc72",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Amount field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec8fef3-b6a9-4d23-bab1-620d02be9566",
+      "comment": "",
+      "command": "click",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Amount field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f77682de-7cee-47bf-ac74-8a164edd8830",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Amount field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Amount field must not be blank"
+    }]
+  }, {
+    "id": "5c6cb49b-ffa0-42b5-b218-62d8e005e980",
+    "name": "TC008",
+    "commands": [{
+      "id": "7ade54e5-cdac-4b3b-ba71-ee81132537da",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7312bf3f-fea4-4081-93c8-62a8c17a242a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "814x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8715920a-37a4-4707-82c8-b0cbb568b4ea",
+      "comment": "",
+      "command": "click",
+      "target": "name=desc",
+      "targets": [
+        ["name=desc", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='desc']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84d4bd13-17a7-4ea2-a51b-4242186f923f",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c52d52-1ce5-4439-a52d-d8d69c4bd93e",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=tr:nth-child(8) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(8) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[8]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "655c877d-5917-44f8-976b-a7051baaed3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a066868e-4df9-4997-ab9f-f50d3fa50926",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(8) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(8) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[8]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7cb0c8b-83d8-4107-ac4f-cd52c7d5d17b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message17",
+      "targets": [
+        ["id=message17", "id"],
+        ["css=#message17", "css:finder"],
+        ["xpath=//label[@id='message17']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Description can not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Description can not be blank"
+    }]
+  }, {
+    "id": "99ce873f-fb91-48b1-afab-d3e1dd01ace7",
+    "name": "TC002",
+    "commands": [{
+      "id": "d67f7744-b9a4-4007-8bf3-1f959b578ab7",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bb0877d-3d8f-4ef8-b149-2cd499c08dfe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "757ed35f-158f-4293-9c79-39e86b1781a4",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0509c490-7758-4d4f-94b2-8f57e5393793",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "@#$#"
+    }, {
+      "id": "1f964499-0730-4261-a1c0-09259df98871",
+      "comment": "",
+      "command": "click",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21625320-413c-4cb1-adea-7e4bf222e91e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "a95e569d-a625-4524-93c8-e5ceb0a7a811",
+    "name": "TC003",
+    "commands": [{
+      "id": "6b04cb7b-a030-497b-bd57-f3d93df9b6f9",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26f3e56e-edec-4e64-b4cf-1f851f708c87",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a69ab191-8d11-4eb5-9a94-378bec3806d9",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d551a57-e48f-475d-aa1c-8653028d9fde",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "asffff"
+    }, {
+      "id": "bca67b6c-3c17-459b-bb9e-dbb4f9dc3121",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(6) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90b0efa5-2be6-4c0d-9fe7-0f5a9f86463b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }]
+  }, {
+    "id": "ce9092f5-15aa-4987-af27-7fa444ddd072",
+    "name": "TC004",
+    "commands": [{
+      "id": "2dec5f66-ea96-4118-aa29-aa13c621db76",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab934500-1997-4753-a1f9-a8864db0c0eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "816x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d840a0fa-7926-4f45-a778-809217b52f7c",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b31c23-822b-4e97-b17e-790968391b59",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " 2a"
+    }, {
+      "id": "2b634d43-7a8a-41b6-a078-e8807c9ed43c",
+      "comment": "",
+      "command": "click",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f87dae1-8874-4dab-afaf-612999bc5d4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e2c2d22-c19b-4c5c-afb8-73d1fe3f57eb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b83609d-7b06-46d3-a7df-3f35f7ee746a",
+      "comment": "",
+      "command": "click",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b6466bc-3592-4e80-83b0-0d017da62af2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }]
+  }, {
+    "id": "2c769aa2-2806-46c5-b67a-8c708cf0e264",
+    "name": "TC006",
+    "commands": [{
+      "id": "8408428f-7f75-4d97-828e-f4a4ef31ef53",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf6d099d-77ac-4aa6-8c8a-27c12974c5fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "818x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25ba9ccc-14b2-4fa7-bdef-dcf4b267912c",
+      "comment": "",
+      "command": "click",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25623f3b-00ab-42c5-b904-061f0f897fa4",
+      "comment": "",
+      "command": "type",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "@#$"
+    }, {
+      "id": "f9e337b1-de76-4fcb-bef4-4f69d002569c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[7]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbee294e-d309-4afe-8c05-6a5870e28db5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "6a1ee1a7-4acb-422d-a3b6-a680c44ac0fc",
+    "name": "TC007",
+    "commands": [{
+      "id": "0303a3a9-26ef-49f0-8947-ab9a443309fc",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/DepositInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "770bbc8a-a557-4140-a20c-93491c49d8f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "820x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abdbf142-60f2-4f24-9406-9e342e14cf6e",
+      "comment": "",
+      "command": "click",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b264ce54-221d-4c7e-9f6e-015fcefaf94f",
+      "comment": "",
+      "command": "type",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "desss"
+    }, {
+      "id": "7df42ca5-30b9-40ea-b448-290b6d931b80",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[7]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0d5729f-9399-43a9-9132-0250cd8abbb6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }]
+  }],
+  "suites": [{
+    "id": "2dcf236b-ed8e-41cb-80b3-c724bf40fba0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8d96f410-d2ab-4659-9774-c32796645ffa"]
+  }],
+  "urls": ["http://www.demo.guru99.com/V4/manager/DepositInput.php"],
+  "plugins": []
+}
