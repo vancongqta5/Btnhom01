@@ -1,0 +1,372 @@
+{
+  "id": "ade4c2fd-fa32-4d15-b360-8cae5592f1a7",
+  "version": "2.0",
+  "name": "rutien",
+  "url": "http://www.demo.guru99.com/V4/manager/WithdrawalInput.php",
+  "tests": [{
+    "id": "960eea7b-e7b2-47c7-bf9e-ec2f8445c335",
+    "name": "TC1",
+    "commands": [{
+      "id": "2a831e05-c2b2-4e4b-a5db-7cdadacf3b01",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/WithdrawalInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c8b4b34-4e98-4896-a1c8-1d1b24c0162b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a7ae302-d511-4ca1-a553-00ce7c0d89c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a0eb6df-842e-4190-bcd4-3d2cc31e91c5",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ff75b3a-54c9-4e9f-8d46-3ba4065b04d1",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=tr:nth-child(6) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(6) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "245e5bb0-ebb8-448a-a8c7-6bcfede72df9",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d86616-5e83-4f03-a2b8-8e26715269d7",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Account Number must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Account Number must not be blank"
+    }, {
+      "id": "2be859c0-62d5-49db-87bd-ee662f50d3ee",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5934d3dd-3c66-4a55-838e-1ae227871eab",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "!"
+    }, {
+      "id": "671bde25-9e36-4532-84dc-1783d595ac55",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }, {
+      "id": "c1eb83d8-900c-4eae-8667-fdb300388539",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae8c190a-b238-467d-a822-44a8d3cc3e5e",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "T"
+    }, {
+      "id": "e9087527-c3bf-428d-8052-b26aea41213f",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }, {
+      "id": "5b9df541-187e-4f69-bf2b-f8567be001c8",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49b38330-aec6-4982-8555-4db76762466b",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " "
+    }]
+  }, {
+    "id": "500e6857-96a0-4bfc-b2dc-e3677eea64a2",
+    "name": "TC2",
+    "commands": [{
+      "id": "7b8d0c8c-4a0d-49ea-b843-86cd8960366f",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/WithdrawalInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e164a1f6-77c2-44e4-9464-26970acebdf1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fe2b11a-2266-4e95-a0ea-f143c196a5a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7873a2d8-d4c1-4fb2-91f7-8e0a124a32d7",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Amount field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Amount field must not be blank"
+    }, {
+      "id": "2e6d8cde-ac35-4816-abfe-be6610fb7cb4",
+      "comment": "",
+      "command": "click",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c4a4ffb-e327-49e7-821b-76a2df67a695",
+      "comment": "",
+      "command": "type",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "70ff0324-4caa-40d4-83f2-f40eb8e9dcaf",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }, {
+      "id": "ef71b8b6-c53f-434c-a33d-9d53cdbe7501",
+      "comment": "",
+      "command": "click",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3ffaebe-90a2-4b37-b2c9-7c11a0406cb5",
+      "comment": "",
+      "command": "type",
+      "target": "name=ammount",
+      "targets": [
+        ["name=ammount", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='ammount']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "!"
+    }, {
+      "id": "bb93b8d0-2eed-4427-82fe-f70fbb7f7bd5",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message1",
+      "targets": [
+        ["id=message1", "id"],
+        ["css=#message1", "css:finder"],
+        ["xpath=//label[@id='message1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "1cbeadb4-22aa-4d2d-9a8c-488564a51b65",
+    "name": "TC3",
+    "commands": [{
+      "id": "14927401-097e-4fb9-a0d9-65f206febf86",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/WithdrawalInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "051c28a3-81ce-468a-8eb1-7d7ca4ff844a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd6064b2-2f18-4907-86ee-74fe072e2849",
+      "comment": "",
+      "command": "click",
+      "target": "name=desc",
+      "targets": [
+        ["name=desc", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='desc']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddc31e25-47c3-4b4b-a188-448b90723cf8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message17",
+      "targets": [
+        ["id=message17", "id"],
+        ["css=#message17", "css:finder"],
+        ["xpath=//label[@id='message17']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Description can not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Description can not be blank"
+    }, {
+      "id": "d544dacd-18c8-4449-9e82-004cc6204097",
+      "comment": "",
+      "command": "click",
+      "target": "name=desc",
+      "targets": [
+        ["name=desc", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='desc']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1677ab0-a9c7-4275-8322-591b0fd4786b",
+      "comment": "",
+      "command": "type",
+      "target": "name=desc",
+      "targets": [
+        ["name=desc", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='desc']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "!@!@#!@#!"
+    }]
+  }],
+  "suites": [{
+    "id": "1da70a47-b35d-417a-bc3b-dac67001929a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://www.demo.guru99.com/V4/manager/WithdrawalInput.php"],
+  "plugins": []
+}
