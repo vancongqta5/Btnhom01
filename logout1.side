@@ -1,0 +1,49 @@
+{
+  "id": "51d12fb8-c55e-4a56-a1ee-f757ea39e697",
+  "version": "2.0",
+  "name": "s",
+  "url": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php",
+  "tests": [{
+    "id": "74d14bc8-30f6-4cb2-808b-eb23be3648bd",
+    "name": "logout1",
+    "commands": [{
+      "id": "27adb130-f6bf-4843-8c53-1642faf87176",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "621bef09-6cde-4efc-b921-974dd631b385",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db9056cb-1b5d-4794-8a8d-7a2e197ffb0b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=.menusubnav > li:nth-child(15) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Logout.php')]", "xpath:href"],
+        ["xpath=//div/ul/li[15]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "352e9beb-8457-48fc-b5b6-626aa9845c3e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["74d14bc8-30f6-4cb2-808b-eb23be3648bd"]
+  }],
+  "urls": ["http://www.demo.guru99.com/V4/manager/Managerhomepage.php"],
+  "plugins": []
+}
