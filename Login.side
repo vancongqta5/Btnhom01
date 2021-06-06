@@ -1,0 +1,812 @@
+{
+  "id": "8c20bfa3-4813-4583-9f01-e063205db126",
+  "version": "2.0",
+  "name": "Project01",
+  "url": "http://www.demo.guru99.com/V4/",
+  "tests": [{
+    "id": "c4e183a4-d81e-49bb-aed9-9a3c7f82b8a8",
+    "name": "TC001",
+    "commands": [{
+      "id": "e98d8826-08b4-438e-a399-c329f0fe90a8",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76cc02f2-fd69-4be6-8a36-e8a68bf17792",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "810x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "967156ad-96c9-44cd-be2e-bcc5103a3cfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba32cbe4-1523-405c-9999-2372024e1bf3",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f830cf5-1c7d-4b3e-9fa1-6c9ac104fc71",
+      "comment": "",
+      "command": "click",
+      "target": "name=frmLogin",
+      "targets": [
+        ["name=frmLogin", "name"],
+        ["css=form", "css:finder"],
+        ["xpath=//form[@name='frmLogin']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b22424d-0759-4880-84d9-f3cc2a0aaf15",
+      "comment": "",
+      "command": "click",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71798929-914b-400a-83d5-69647311f08e",
+      "comment": "",
+      "command": "click",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e5e2815-8b82-48f2-b90e-610616b73601",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68b40544-4ecf-4ce0-904a-3a53cf24469d",
+      "comment": "",
+      "command": "click",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8703f9a2-abc0-4a91-a508-e280ce56d43d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "User-ID must not be blank"
+    }, {
+      "id": "2d981fb1-3e55-4f75-9e4d-1d026e8c0dbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a8d884-481c-4cea-b0ce-65b7524b27d4",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Guru99 Bank Home Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db9139df-2cb7-4304-90b2-218f75871803",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b936779-5702-4a15-96c1-2d563c8a8c6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57d871e6-6ead-47ef-ad94-9014880e6106",
+      "comment": "",
+      "command": "click",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cbec7bd-f118-430e-8c2b-1855cd04d15a",
+      "comment": "",
+      "command": "click",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a11417c-4e85-4438-8557-e6f0100b5493",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4de7935e-b5b6-4748-8ab3-e008c1c0a9ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd46bae5-fcd7-49cf-89cf-cdeac70f38ed",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Password must not be blank"
+    }, {
+      "id": "66da3100-64ba-4a14-b8bd-b1d3224580b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3768948-20f4-41c9-a2d0-9e7bbd434dc1",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Guru99 Bank Home Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a13e7e8-26fd-4bbd-91f6-753d0de5ef14",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e41eb714-7617-4539-8f08-cf6ef5faf84e",
+    "name": "TC002",
+    "commands": [{
+      "id": "9be19161-6d6e-4798-86c5-6e155b933ca5",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff3d2c82-095c-463b-8f69-0cdc4be061ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc9ab183-f4fa-485e-bcc8-5e211ca57de5",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c73cee30-258e-481c-a218-7f4efca5123c",
+      "comment": "",
+      "command": "click",
+      "target": "name=frmLogin",
+      "targets": [
+        ["name=frmLogin", "name"],
+        ["css=form", "css:finder"],
+        ["xpath=//form[@name='frmLogin']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acc5a14c-85b3-4c9e-bf85-37b1e2366ded",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc49db9e-05b5-4d52-91db-fa8c65d6fe6a",
+      "comment": "",
+      "command": "type",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mngr332165"
+    }, {
+      "id": "0dc31865-d441-4e36-a106-ea45c8139324",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55ed176b-d3c4-4d83-ba43-e43c0e81e853",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Guru99 Bank Home Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a96e7bba-b727-43a1-b94e-5177b50d6c0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b585b9a-c340-4570-8c69-5818c7183f81",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6988e27-c4f0-47bb-886c-2d42dd0929e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38e63ecd-2702-4330-8b69-5673f07348db",
+      "comment": "",
+      "command": "click",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6937f0fa-a4ba-4ab5-90f2-fe599e461ef9",
+      "comment": "",
+      "command": "click",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1383d95e-face-4828-8162-707cc1a28a4b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c738bad3-5869-4382-9404-4e2dffadc5cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7139d6c5-c3b1-4b22-8800-7036bebba641",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Password must not be blank"
+    }, {
+      "id": "b47e6f24-2af8-4b8f-8994-39e7d182b374",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e791c8a9-e0cc-4b70-90dc-1f45f89c2642",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Guru99 Bank Home Page",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7f3a0bc5-2e1a-408e-94a2-019644c7f2a4",
+    "name": "TC003",
+    "commands": [{
+      "id": "6d3ac95d-7a2e-437b-98a9-5439f5943912",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bfe460e-7f0c-45e2-82ef-b3dcd1a98ac1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63bb0a23-14f5-457f-83d4-4308e7a2c3d1",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8b4565e-1dfb-4b5b-a7e1-d7daa036c5c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1e7433a-f6bc-4578-8d57-6dc4f2063d3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4acc748a-5b99-4410-ade6-f6bf8012bfec",
+      "comment": "",
+      "command": "click",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d91bd980-1d13-499a-b692-fe3372f39370",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c37947a4-bf9f-44f8-93d9-6ee432eae3a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df56d5ed-7fc9-4590-90f2-85d90c7743cc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message23",
+      "targets": [
+        ["id=message23", "id"],
+        ["css=#message23", "css:finder"],
+        ["xpath=//label[@id='message23']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "User-ID must not be blank"
+    }, {
+      "id": "d41dc231-3852-47d9-ba14-e8a0574d55a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=frmLogin",
+      "targets": [
+        ["name=frmLogin", "name"],
+        ["css=form", "css:finder"],
+        ["xpath=//form[@name='frmLogin']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8c4e67f-ed98-447a-a25e-1293575a4134",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Guru99 Bank Home Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f4ae14c-70df-486e-94ef-370e64f06de0",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64a39e82-d1e3-48ef-bd90-2ffc9a51b379",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "mngr332165"
+    }, {
+      "id": "183cfa06-ed6f-4f49-aa0f-e1214cdf4df0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71afa5b0-bbea-4faf-94e6-a3f800d99514",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=tr:nth-child(3) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "663b257a-f430-43af-8f80-25c9dddc129e",
+    "name": "TC004",
+    "commands": [{
+      "id": "326d04a7-b0e1-411c-8eba-b9af8669a44e",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7821ad6a-a62e-4cde-a2d3-3792788346b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "814x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95716e67-d0c2-4d69-88c8-b32ef418a02c",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60777cf1-5755-45a1-a1b5-5301ffc3e7a4",
+      "comment": "",
+      "command": "type",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mngr332165"
+    }, {
+      "id": "7a869dfb-dd01-42d7-a91d-68d55d81c582",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Guru99 Bank Home Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aeab8840-38b5-40be-a4dd-b183749592d1",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da04fc5-7fc2-4568-8d3c-6da6942481e3",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "abaqYvY"
+    }, {
+      "id": "d891f681-5135-4809-b2fd-02ca8606369d",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "327bc5d2-cc9e-4898-8db5-93ed4fa28a22",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Guru99 Bank Home Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72813c0b-dc58-4b76-836a-3d9865465a1f",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=tr:nth-child(3) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c63861b5-1c97-41d8-80eb-c8ab7ac80971",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td",
+      "targets": [
+        ["css=tr:nth-child(1) > td", "css:finder"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3146d16b-0ab7-4296-9b35-2960ae3e6834",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heading3:nth-child(1)",
+      "targets": [
+        ["css=.heading3:nth-child(1)", "css:finder"],
+        ["xpath=//marquee", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a6d70cb-f6fc-4cbf-966a-36c59a2bad5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heading3:nth-child(1)",
+      "targets": [
+        ["css=.heading3:nth-child(1)", "css:finder"],
+        ["xpath=//marquee", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de5ceece-e60a-455b-ac47-b6f52e1e5736",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.heading3:nth-child(1)",
+      "targets": [
+        ["css=.heading3:nth-child(1)", "css:finder"],
+        ["xpath=//marquee", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a8aa275-c198-4e65-9aed-97a8d6800191",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heading3:nth-child(1)",
+      "targets": [
+        ["css=.heading3:nth-child(1)", "css:finder"],
+        ["xpath=//marquee", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55cb8fea-7916-462b-aff3-448be9809386",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.heading3:nth-child(1)",
+      "targets": [
+        ["css=.heading3:nth-child(1)", "css:finder"],
+        ["xpath=//marquee", "xpath:position"]
+      ],
+      "value": "Welcome To Manager's Page of Guru99 Bank"
+    }, {
+      "id": "b36f5163-ce44-42e5-961c-9e89169b506e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > div",
+      "targets": [
+        ["css=div:nth-child(7) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d624e524-5f52-4fb4-8f85-cac1bd37c2e7",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Guru99 Bank Manager HomePage",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9a068d88-559f-4bea-b860-4695cd19eacf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c4e183a4-d81e-49bb-aed9-9a3c7f82b8a8"]
+  }],
+  "urls": [],
+  "plugins": []
+}
