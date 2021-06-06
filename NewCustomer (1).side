@@ -1,0 +1,1386 @@
+{
+  "id": "ff0d36d4-67fd-4c45-b251-da4d264c6a3a",
+  "version": "2.0",
+  "name": "NewCustomer",
+  "url": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+  "tests": [{
+    "id": "78aa7df8-6a58-4885-9a94-c2978c2417d4",
+    "name": "TC001",
+    "commands": [{
+      "id": "7d47d125-756c-40e7-a55d-6b4f3e290b48",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b817c0e4-7c91-4c1b-9070-75ab5981ea1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0064d731-bae3-4e79-9ee2-caa3578435eb",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c31e013c-9ac2-4c87-b73f-7f1879a214e4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//label[@id='message']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Customer name must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Customer name must not be blank"
+    }]
+  }, {
+    "id": "c6a3c787-9177-476f-9960-648096e01f58",
+    "name": "TC002",
+    "commands": [{
+      "id": "1050aa00-77ab-4177-afb3-3336e579f38f",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7852d2f1-98f5-4537-94bf-b55a44d6ec86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dc1c6be-7b38-48ac-95aa-471983ce530c",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "277c4e9b-1ee2-4f26-8b80-7b1c321ee6a1",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "name123"
+    }, {
+      "id": "3d524feb-fb2e-4eeb-b61a-e16d964f144f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tr:nth-child(4) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": "Numbers are not allowed"
+    }]
+  }, {
+    "id": "6d0c99fb-d449-4139-a939-b2b81f572cfd",
+    "name": "TC003",
+    "commands": [{
+      "id": "e1da8942-f899-4b0d-8df4-935a92fcb7ae",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be2d2298-947d-451d-9c43-95a28bffd7d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2cb1188-8886-43fc-ae45-c9266af27d18",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92b25e7a-d31f-46e7-9b29-a46bc885e77e",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "name!@#"
+    }, {
+      "id": "094e4126-9ff3-4167-b049-c58f367a8415",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//label[@id='message']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "0beb84e1-f1ea-471e-8d04-242087e832eb",
+    "name": "TC004",
+    "commands": [{
+      "id": "c3da4053-e5a5-44f6-82f2-0f0ba6835ec3",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3186905a-a869-45b1-babc-4127156b023f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02cb59d4-07fa-4be0-aaf6-8dd3002f51e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed5a554a-c917-46ef-b0d9-8c4852670d48",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " "
+    }, {
+      "id": "3b449ae0-ed6a-4921-b22b-f5614b72cb34",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//label[@id='message']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'First character can not have space')]", "xpath:innerText"]
+      ],
+      "value": "First character can not have space"
+    }]
+  }, {
+    "id": "fbedeece-f3de-47c3-9622-45c2f1f61481",
+    "name": "TC005",
+    "commands": [{
+      "id": "483b4eca-a33b-4290-8b2d-59093892672c",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa8283cd-84ec-4996-bdc5-8d870f731e70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7701d3aa-015b-408e-80e5-fdecd46242ea",
+      "comment": "",
+      "command": "click",
+      "target": "name=addr",
+      "targets": [
+        ["name=addr", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='addr']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c5a2c88-dd44-4b80-89e7-389a4a995919",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message3",
+      "targets": [
+        ["id=message3", "id"],
+        ["css=#message3", "css:finder"],
+        ["xpath=//label[@id='message3']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Address Field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Address Field must not be blank"
+    }]
+  }, {
+    "id": "d80d6788-e6a5-4a8b-b8fe-77fb3d62f9a8",
+    "name": "TC006",
+    "commands": [{
+      "id": "b8c09253-6923-40c9-8b00-b86b8cb3e52f",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22c0a386-998c-4c6d-a5d4-531030d9ddfd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f50c25c6-4b4c-404f-ad4f-4a4c8f316ee9",
+      "comment": "",
+      "command": "click",
+      "target": "name=addr",
+      "targets": [
+        ["name=addr", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='addr']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e46ec3d-83c9-4963-85ea-3bab2dbd6657",
+      "comment": "",
+      "command": "type",
+      "target": "name=addr",
+      "targets": [
+        ["name=addr", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='addr']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "add!@#"
+    }, {
+      "id": "36e8b01f-9573-4bd0-854a-0d32d6648f20",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tr:nth-child(7) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[7]/td[2]", "xpath:position"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "5a64e4a7-cd37-49dc-93ab-9cc73768a014",
+    "name": "TC007",
+    "commands": [{
+      "id": "b01a0bea-54c5-4884-940e-0120f6a96ca5",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c324656a-3af2-4f09-ac68-3196888f1bc3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a6de188-b794-47e9-96f1-093252c0f9d9",
+      "comment": "",
+      "command": "click",
+      "target": "name=addr",
+      "targets": [
+        ["name=addr", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='addr']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2187269e-74be-4ef2-a1cb-3dce21e3985b",
+      "comment": "",
+      "command": "type",
+      "target": "name=addr",
+      "targets": [
+        ["name=addr", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='addr']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": " "
+    }, {
+      "id": "50bc88b5-7c0b-4018-bada-6e8bf22b21e8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tr:nth-child(7) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[7]/td", "xpath:position"]
+      ],
+      "value": "Address"
+    }]
+  }, {
+    "id": "c1f87d9a-268a-4766-bc1c-607d009a656d",
+    "name": "TC008",
+    "commands": [{
+      "id": "bda42a99-d246-4ff8-bca4-7a27287a69dc",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ea2f23b-3dec-4e1c-8f93-820532c2bba0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b16e8c57-5a88-46cb-a8da-9950dda698ab",
+      "comment": "",
+      "command": "click",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d6b88d2-ba2e-48a8-af96-937eebcd2dd4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message4",
+      "targets": [
+        ["id=message4", "id"],
+        ["css=#message4", "css:finder"],
+        ["xpath=//label[@id='message4']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'City Field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "City Field must not be blank"
+    }]
+  }, {
+    "id": "61044807-c566-489e-b5d3-5458eb5efced",
+    "name": "TC009",
+    "commands": [{
+      "id": "a3294035-4fb0-4602-9c47-0a27b2ecf412",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8b64ab6-4880-4112-9502-92c1c5576e42",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf3f1754-20ca-46a1-8182-cd3d0ab7ac31",
+      "comment": "",
+      "command": "click",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21bacb4-1217-44e1-8b95-6a5b01ffdb4a",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "city123"
+    }, {
+      "id": "52cc0d08-7499-4aa4-9b9e-d5376bb2e5f7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message4",
+      "targets": [
+        ["id=message4", "id"],
+        ["css=#message4", "css:finder"],
+        ["xpath=//label[@id='message4']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Numbers are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Numbers are not allowed"
+    }]
+  }, {
+    "id": "e0181e07-65eb-4cec-b655-f5f29fc11e21",
+    "name": "TC010",
+    "commands": [{
+      "id": "6625ab8a-8af5-406c-8705-d008a851353b",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ccadf2c-30c2-4ae8-a650-8134803da948",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "771e8e61-d298-491e-9877-225aaedaaa47",
+      "comment": "",
+      "command": "click",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e71769bc-90eb-4f41-b0b8-0c801e8f9bef",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "City!@#"
+    }, {
+      "id": "97994ffd-43dc-4044-a73f-a2478d84187e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message4",
+      "targets": [
+        ["id=message4", "id"],
+        ["css=#message4", "css:finder"],
+        ["xpath=//label[@id='message4']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "682dde4a-926f-4243-83e3-b560aa9d3e65",
+    "name": "TC011",
+    "commands": [{
+      "id": "b1dc98a1-3409-4da8-ad6c-544ce2e08dc2",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0acb607d-bcc9-487e-a9c1-f0e516e1336a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9117dee4-5b89-4e15-bdbd-08f085891b08",
+      "comment": "",
+      "command": "click",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98e3eddf-e42a-4b49-bcc5-4344228fce0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": " "
+    }, {
+      "id": "6ec6627f-fd00-4b8a-8ea8-6b2e15b1cb64",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message4",
+      "targets": [
+        ["id=message4", "id"],
+        ["css=#message4", "css:finder"],
+        ["xpath=//label[@id='message4']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'First character can not have space')]", "xpath:innerText"]
+      ],
+      "value": "First character can not have space"
+    }]
+  }, {
+    "id": "f3e06579-8c52-416e-a0d5-f8ccdbee5ab3",
+    "name": "TC012",
+    "commands": [{
+      "id": "941d6951-3c6d-4647-b508-1f77c09ba77a",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9698bd0f-d071-4fdf-9797-07eaa69fd885",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4849b2cf-67b6-4d62-9bf6-890df6b1de53",
+      "comment": "",
+      "command": "click",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3acf33ff-1e3d-4122-967f-efaf796074ba",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message5",
+      "targets": [
+        ["id=message5", "id"],
+        ["css=#message5", "css:finder"],
+        ["xpath=//label[@id='message5']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'State must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "State must not be blank"
+    }]
+  }, {
+    "id": "9c3aab21-9f7a-4c57-b930-2f29fb928cff",
+    "name": "TC013",
+    "commands": [{
+      "id": "75d15345-d4c3-4750-ab78-3f83def45e84",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d69d4625-3131-4f37-bd26-16a9eac671a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "207eea6f-d8cf-4ef5-9e2d-1c93fd7860fa",
+      "comment": "",
+      "command": "click",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b725b619-7e85-4204-8e6d-3de311dc84b6",
+      "comment": "",
+      "command": "type",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": "stt123"
+    }, {
+      "id": "921ce02d-3490-40f1-9bea-c188988a1437",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message5",
+      "targets": [
+        ["id=message5", "id"],
+        ["css=#message5", "css:finder"],
+        ["xpath=//label[@id='message5']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Numbers are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Numbers are not allowed"
+    }]
+  }, {
+    "id": "acc2a059-c32f-4283-be3a-f07a759dd51d",
+    "name": "TC014",
+    "commands": [{
+      "id": "2e722d62-b645-4a2c-a63a-f60e03f5a183",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70431401-60b0-4a56-b6ae-c6227d86c40e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5026011-e1ca-41b8-8fd3-5006cd184090",
+      "comment": "",
+      "command": "click",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dabdfb52-937f-4b88-ae8b-f0effeb1b0aa",
+      "comment": "",
+      "command": "type",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": "stt!@#"
+    }, {
+      "id": "f00250b5-99c8-4238-9d77-e0e8bcc09daf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message5",
+      "targets": [
+        ["id=message5", "id"],
+        ["css=#message5", "css:finder"],
+        ["xpath=//label[@id='message5']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "7042143f-2095-497f-99dc-bb0c6d3184ed",
+    "name": "TC015",
+    "commands": [{
+      "id": "5a14dad2-e646-409c-bea8-78ed70b55e2f",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc545a8b-be59-4892-8ce5-696c0babb012",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26279f1e-ef50-4e70-9246-3532f137512c",
+      "comment": "",
+      "command": "click",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ce0499d-d54a-45af-aa37-782e748d1277",
+      "comment": "",
+      "command": "type",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": " "
+    }, {
+      "id": "afc39480-69c0-4c09-8fa6-81d21a9dedad",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message5",
+      "targets": [
+        ["id=message5", "id"],
+        ["css=#message5", "css:finder"],
+        ["xpath=//label[@id='message5']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'First character can not have space')]", "xpath:innerText"]
+      ],
+      "value": "First character can not have space"
+    }]
+  }, {
+    "id": "d2483b2b-76bc-4231-9a1c-15d3a7862fb9",
+    "name": "TC016",
+    "commands": [{
+      "id": "bfe4e79f-e39a-46d0-9450-38df6dd65b51",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08bf9a7f-76b7-4f5a-8b50-970a05d673f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41e6e939-6d51-42b4-bc63-ebf329f98cb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=dob",
+      "targets": [
+        ["id=dob", "id"],
+        ["name=dob", "name"],
+        ["css=#dob", "css:finder"],
+        ["xpath=//input[@id='dob']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c488a33-ff43-4d6a-8abe-bf9858661216",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message24",
+      "targets": [
+        ["id=message24", "id"],
+        ["css=#message24", "css:finder"],
+        ["xpath=//label[@id='message24']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Date Field must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Date Field must not be blank"
+    }]
+  }, {
+    "id": "091ba97d-0e8b-41d1-b25b-6dc8c1470648",
+    "name": "TC017",
+    "commands": [{
+      "id": "6647ab02-2453-4846-b12b-90f1cfe7d91c",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3efeb0cb-5db0-4e48-98bc-ff8b52f57612",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8826adc6-58e9-4f09-bb4a-cc991b1fc962",
+      "comment": "",
+      "command": "click",
+      "target": "name=pinno",
+      "targets": [
+        ["name=pinno", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='pinno']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db7eec5f-0c25-44d1-8f36-7098d29a25e1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message6",
+      "targets": [
+        ["id=message6", "id"],
+        ["css=#message6", "css:finder"],
+        ["xpath=//label[@id='message6']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'PIN Code must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "PIN Code must not be blank"
+    }]
+  }, {
+    "id": "aa2e1f26-effa-4ac9-8783-3bedc440a9fe",
+    "name": "TC018",
+    "commands": [{
+      "id": "8b8549c7-e47c-4f50-87fc-21ba7ed1e2de",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3028099d-728d-4ef7-985b-18a4857e6762",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d34db3b4-44c3-4f3d-a1a4-d33a41199410",
+      "comment": "",
+      "command": "click",
+      "target": "name=pinno",
+      "targets": [
+        ["name=pinno", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='pinno']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f98304f5-271a-403a-a1f0-bca8e6cf835b",
+      "comment": "",
+      "command": "type",
+      "target": "name=pinno",
+      "targets": [
+        ["name=pinno", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='pinno']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "f543585b-6639-45b6-a686-12f042a44079",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message6",
+      "targets": [
+        ["id=message6", "id"],
+        ["css=#message6", "css:finder"],
+        ["xpath=//label[@id='message6']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }]
+  }, {
+    "id": "9a8d205c-2518-4241-a06c-ab99dbabdd68",
+    "name": "TC019",
+    "commands": [{
+      "id": "45db4d62-0972-486e-af4e-4f5f942d3cce",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5654e23d-b256-4fca-a09d-933051f77028",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a8e6b2b-55a3-4f00-93ca-3289d8a2005f",
+      "comment": "",
+      "command": "click",
+      "target": "name=pinno",
+      "targets": [
+        ["name=pinno", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='pinno']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef4bed53-cd5d-45e1-95e3-556229fae984",
+      "comment": "",
+      "command": "type",
+      "target": "name=pinno",
+      "targets": [
+        ["name=pinno", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='pinno']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": "pin!@#"
+    }, {
+      "id": "2047431d-b8d7-4c5f-b1b5-c3d4eef1d1a9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message6",
+      "targets": [
+        ["id=message6", "id"],
+        ["css=#message6", "css:finder"],
+        ["xpath=//label[@id='message6']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "6f0d2c27-9916-49b2-a66d-5c6dba1275c9",
+    "name": "TC020",
+    "commands": [{
+      "id": "6b18caa0-013c-4fa2-8c42-c4d6b41a493b",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba583661-b4af-454d-b1f7-3078a1dd43f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf81b65e-856c-4361-a6c8-06c79241e12b",
+      "comment": "",
+      "command": "click",
+      "target": "name=pinno",
+      "targets": [
+        ["name=pinno", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='pinno']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff3d6f15-92a1-47ee-ab05-ccfe1db321a1",
+      "comment": "",
+      "command": "type",
+      "target": "name=pinno",
+      "targets": [
+        ["name=pinno", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='pinno']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": " "
+    }, {
+      "id": "3e4fdd97-2582-4591-af52-ff5126693dc5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message6",
+      "targets": [
+        ["id=message6", "id"],
+        ["css=#message6", "css:finder"],
+        ["xpath=//label[@id='message6']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'First character can not have space')]", "xpath:innerText"]
+      ],
+      "value": "First character can not have space"
+    }]
+  }, {
+    "id": "a97ce8cb-72bf-4d2b-a186-94de4538b931",
+    "name": "TC021",
+    "commands": [{
+      "id": "45ba7877-c3d5-4d50-8ca0-a15ff655f4c6",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be423e30-1194-4b24-9fe9-772333027068",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94011174-912c-4015-8bcf-a281796e217f",
+      "comment": "",
+      "command": "click",
+      "target": "name=telephoneno",
+      "targets": [
+        ["name=telephoneno", "name"],
+        ["css=tr:nth-child(11) input", "css:finder"],
+        ["xpath=//input[@name='telephoneno']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bb8f929-65cb-44e9-af99-91cb647c1c29",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message7",
+      "targets": [
+        ["id=message7", "id"],
+        ["css=#message7", "css:finder"],
+        ["xpath=//label[@id='message7']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mobile no must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Mobile no must not be blank"
+    }]
+  }, {
+    "id": "b505cb96-a572-48a0-a822-350a3f1124fa",
+    "name": "TC022",
+    "commands": [{
+      "id": "36f0309c-1bb7-4bcb-8a8b-70fe469aaa9a",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1db78e39-3beb-4aba-8e5d-adcfbb4bac89",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33b30e57-f2b0-44bc-874d-48368621fef7",
+      "comment": "",
+      "command": "click",
+      "target": "name=telephoneno",
+      "targets": [
+        ["name=telephoneno", "name"],
+        ["css=tr:nth-child(11) input", "css:finder"],
+        ["xpath=//input[@name='telephoneno']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e01fe33-e55e-48d9-97ab-5bbb3c27a25c",
+      "comment": "",
+      "command": "type",
+      "target": "name=telephoneno",
+      "targets": [
+        ["name=telephoneno", "name"],
+        ["css=tr:nth-child(11) input", "css:finder"],
+        ["xpath=//input[@name='telephoneno']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "66745dce-2365-4978-b2dc-426b809487fd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message7",
+      "targets": [
+        ["id=message7", "id"],
+        ["css=#message7", "css:finder"],
+        ["xpath=//label[@id='message7']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }]
+  }, {
+    "id": "89e9112f-aa8c-4e44-a5fa-d91cb25e8370",
+    "name": "TC023",
+    "commands": [{
+      "id": "1e144ff2-b539-4693-94ed-f7b76ad76c29",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34848adf-b734-490b-86d6-354e17dd4845",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7875aea8-52bd-4de1-8a5d-d07d15b34d74",
+      "comment": "",
+      "command": "click",
+      "target": "name=telephoneno",
+      "targets": [
+        ["name=telephoneno", "name"],
+        ["css=tr:nth-child(11) input", "css:finder"],
+        ["xpath=//input[@name='telephoneno']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1b74974-b5a4-4fac-aa49-997ac9c51e9c",
+      "comment": "",
+      "command": "type",
+      "target": "name=telephoneno",
+      "targets": [
+        ["name=telephoneno", "name"],
+        ["css=tr:nth-child(11) input", "css:finder"],
+        ["xpath=//input[@name='telephoneno']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": "mobile!@#"
+    }, {
+      "id": "5b772ba5-005e-4af6-9d24-b0afa06abcb7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message7",
+      "targets": [
+        ["id=message7", "id"],
+        ["css=#message7", "css:finder"],
+        ["xpath=//label[@id='message7']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Special characters are not allowed')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "8d716529-085a-498f-b1e2-1a5c2cb878b9",
+    "name": "TC024",
+    "commands": [{
+      "id": "e119ae28-9460-4a55-9f96-9adf2b7fcce2",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b930f66-273a-447b-82a9-ee5c9d9badea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "870893ca-4c45-4124-b394-180fcd2e834b",
+      "comment": "",
+      "command": "click",
+      "target": "name=telephoneno",
+      "targets": [
+        ["name=telephoneno", "name"],
+        ["css=tr:nth-child(11) input", "css:finder"],
+        ["xpath=//input[@name='telephoneno']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed88d24-c2b5-4bef-8834-c47f80cc8eef",
+      "comment": "",
+      "command": "type",
+      "target": "name=telephoneno",
+      "targets": [
+        ["name=telephoneno", "name"],
+        ["css=tr:nth-child(11) input", "css:finder"],
+        ["xpath=//input[@name='telephoneno']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": " "
+    }, {
+      "id": "c2ece972-ceb4-4829-919e-199ff04faa72",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message7",
+      "targets": [
+        ["id=message7", "id"],
+        ["css=#message7", "css:finder"],
+        ["xpath=//label[@id='message7']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'First character can not have space')]", "xpath:innerText"]
+      ],
+      "value": "First character can not have space"
+    }]
+  }, {
+    "id": "ba033d4c-e4fd-45a7-90c1-ff497afda30d",
+    "name": "TC025",
+    "commands": [{
+      "id": "c02da382-2ce6-49ab-8d40-008144349840",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91f51e11-c447-4451-8462-3dd04b36139f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98b6b4c8-d2dd-467f-b1c9-a3b79592a2ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailid",
+      "targets": [
+        ["name=emailid", "name"],
+        ["css=tr:nth-child(12) input", "css:finder"],
+        ["xpath=//input[@name='emailid']", "xpath:attributes"],
+        ["xpath=//tr[12]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a4c07c7-c913-4325-8c22-6980d6d48fe4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message9",
+      "targets": [
+        ["id=message9", "id"],
+        ["css=#message9", "css:finder"],
+        ["xpath=//label[@id='message9']", "xpath:attributes"],
+        ["xpath=//tr[12]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Email-ID must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Email-ID must not be blank"
+    }]
+  }, {
+    "id": "4d457473-7f81-4147-aef7-8c8ccbe347a3",
+    "name": "TC026",
+    "commands": [{
+      "id": "81cb461c-403a-459b-9ec2-a40bc1181b96",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f720163d-3652-4c18-93ab-25041a0d8280",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a267b9da-23e4-4930-83f7-ac7162fc8f6d",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailid",
+      "targets": [
+        ["name=emailid", "name"],
+        ["css=tr:nth-child(12) input", "css:finder"],
+        ["xpath=//input[@name='emailid']", "xpath:attributes"],
+        ["xpath=//tr[12]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8fcc9d4-c8ae-4cef-9558-ad77ff3fd15c",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailid",
+      "targets": [
+        ["name=emailid", "name"],
+        ["css=tr:nth-child(12) input", "css:finder"],
+        ["xpath=//input[@name='emailid']", "xpath:attributes"],
+        ["xpath=//tr[12]/td[2]/input", "xpath:position"]
+      ],
+      "value": " "
+    }, {
+      "id": "72451dfe-faf7-4797-91e3-f61bedc85389",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message9",
+      "targets": [
+        ["id=message9", "id"],
+        ["css=#message9", "css:finder"],
+        ["xpath=//label[@id='message9']", "xpath:attributes"],
+        ["xpath=//tr[12]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'First character can not have space')]", "xpath:innerText"]
+      ],
+      "value": "First character can not have space"
+    }]
+  }, {
+    "id": "ed074133-14eb-413c-9f11-53273976fbb2",
+    "name": "TC027",
+    "commands": [{
+      "id": "060e62f3-9373-4403-b914-b6a65c04a7a8",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9756cca0-a1b2-4788-a7c5-067ec6972522",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71fd933a-084f-4515-a90a-c3cc539b21bd",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(13) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03c1d3aa-e0ee-411f-8041-276bfcb53435",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=message18",
+      "targets": [
+        ["id=message18", "id"],
+        ["css=#message18", "css:finder"],
+        ["xpath=//label[@id='message18']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Password must not be blank"
+    }]
+  }],
+  "suites": [{
+    "id": "f5d2d77a-472e-4ca2-9447-d7034e16bf5d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["78aa7df8-6a58-4885-9a94-c2978c2417d4"]
+  }],
+  "urls": ["http://www.demo.guru99.com/V4/manager/addcustomerpage.php"],
+  "plugins": []
+}
